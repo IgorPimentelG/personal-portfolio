@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlobalTheme } from './global';
+import { GlobalTheme } from '@global';
 
 const App: React.FC = () => {
 	return (
