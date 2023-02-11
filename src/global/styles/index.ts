@@ -21,6 +21,9 @@ const GlobalStyles = createGlobalStyle`
 
 	body {
 		font-family: 'Calibre';
+		min-height: 100vh;
+		min-width: 100vw;
+		background-color: #0a192f;
 	}
 
 	button {
