@@ -12,12 +12,19 @@ const emerge = keyframes`
 	}
 `;
 
+const easeOut = keyframes`
+	100% {
+		opacity: 0;
+	}
+`;
+
 export const LogoWrap = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100px;
 	height: 100px;
+	animation: ${easeOut} 1s ease-out 2s;
 `;
 
 export const ShapeWrap = styled.div`

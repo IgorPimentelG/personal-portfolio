@@ -10,7 +10,7 @@ const SplashPage: React.FC = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			navigate('/home');
-		}, 2000);
+		}, 3000);
 	}, []);
 
 	return (
