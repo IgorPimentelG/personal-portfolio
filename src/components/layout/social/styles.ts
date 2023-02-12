@@ -6,7 +6,7 @@ export const SocialWrap = styled.div`
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 0 50px;
+	padding: 0 40px;
 	justify-content: space-between;
 `;
 
