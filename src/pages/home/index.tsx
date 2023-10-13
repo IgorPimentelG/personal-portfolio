@@ -8,6 +8,7 @@ import {
 } from '@assets';
 import { Button, Card, Footer, Navbar } from '@components';
 import { HiOutlineBuildingStorefront } from 'react-icons/hi2';
+import { MdOutlineTravelExplore, MdPayments } from 'react-icons/md';
 import { TbReportAnalytics } from 'react-icons/tb';
 import {
 	Image,
@@ -35,7 +36,18 @@ const Home: React.FC = () => {
 			icon: <TbReportAnalytics />,
 		},
 		{
-			title: 'TBB Store',
+			title: 'Pay hub',
+			language: 'Java',
+			year: '2023',
+			description: 'Ferramenta dedicada ao gerenciamento eficiente de transações de pagamento de clientes para estabelecimentos. A aplicação \
+				foi desenvolvida usando Java e o framework Spring, incorporando recursos essenciais como Spring Security, Rest Template, MySQL, Resilience4j, Docker, \
+			 	e uma variedade de outras tecnologias.',
+			linkGithub: 'https://github.com/IgorPimentelG/pay-hub',
+			linkDeploy: '',
+			icon: <MdPayments />,
+		},
+		{
+			title: 'QWERy',
 			language: 'ReactJS',
 			year: '2023',
 			description: 'Website para demostrar a página inicial de um e-commerce. Neste contexto, a integração de tecnologias como ContextAPI, \
@@ -43,6 +55,16 @@ const Home: React.FC = () => {
 			linkGithub: 'https://github.com/IgorPimentelG/TBB-Store',
 			linkDeploy: 'https://tbb-store.vercel.app/',
 			icon: <HiOutlineBuildingStorefront />,
+		},
+		{
+			title: 'QWERy',
+			language: 'ReactJS',
+			year: '2023',
+			description: 'Essa landing page foi criada com dedicação para oferecer a melhor experiência aos visitantes interessados no turismo na Indonésia. \
+				Utilizamos as tecnologias Vite e TypeScript para garantir uma página web fluida, responsiva e de alto desempenho.',
+			linkGithub: 'https://github.com/IgorPimentelG/QWERy',
+			linkDeploy: 'https://qwer-y-umber.vercel.app/',
+			icon: <MdOutlineTravelExplore />,
 		}
 	];
 
