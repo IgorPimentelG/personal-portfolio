@@ -4,9 +4,9 @@ export const Container = styled.nav`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 28px 48px 78px 48px;
-	width: 100%;
+	padding: 28px 0 78px 0;
 	gap: 8px;
+	text-align: center;
 
 	& > div:nth-child(1) {
 		display: flex;

@@ -13,22 +13,44 @@ export const PresentationSession = styled.section`
 
 		& > p {
 			width: 50%;
+
+			@media (max-width: 1080px) {
+				width: 80%;
+			}
+
+			@media (max-width: 872px) {
+				width: 100%;
+			}
 		}
+
+		@media (max-width: 872px) {
+			text-align: center;
+			align-items: center;
+		}
+	}
+
+	@media (max-width: 429px) {
+		padding: 48px 0;
 	}
 `;
 
 export const TechnologiesSession = styled.section`
 	display: flex;
-	width: 100%;
 	justify-content: center;
 
 	& > div {
 		display: flex;
 		justify-content: space-around;
-		padding: 24px 0;
+		padding: 24px 12px;
 		width: 94%;
 		border-radius: 10px;
 		background-color: #EEEEEE;
+		gap: 24px;
+
+		@media (max-width: 730px) {
+			column-gap: 48px;
+			flex-wrap: wrap;
+		}
 	}
 `;
 
@@ -37,6 +59,10 @@ export const ProjectsSession = styled.section`
 	flex-direction: column;
 	gap: 24px;
 	padding: 68px 38px;
+
+	@media (max-width: 550px) {
+		padding: 68px 0;
+	}
 `;
 
 export const List = styled.div`
@@ -52,15 +78,31 @@ export const Title = styled.h1`
 	span {
 		color: ${({ theme }) => theme.colors['pastel-green']};
 	}
+
+	@media (max-width: 1080px) {
+		font-size: 28px;
+		line-height: 38px;
+	}
 `;
 
 export const Image = styled.img`
 	width: 250px;
 	border-radius: 100%;
+
+	@media (max-width: 872px) {
+		display: none;
+	}
 `;
 
 export const Logo = styled.img`
-	height: 40px;
-	width: 150px;
+	max-height: 40px;
+	max-width: 150px;
+	height: auto;
+	width: auto;
 	object-fit: contain;
+
+	@media (max-width: 980px) {
+		max-height: 40px;
+		max-width: 120px;
+	}
 `;

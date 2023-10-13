@@ -5,6 +5,10 @@ export const Container = styled.nav`
 	justify-content: flex-end;
 	padding: 24px 0;
 	gap: 24px;
+
+	@media (max-width: 425px) {
+		justify-content: center;
+	}
 `;
 
 export const Option = styled.a`

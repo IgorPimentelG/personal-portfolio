@@ -1,21 +1,29 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	width: 80%;
 
 	& > div {
 		display: flex;
 		gap: 24px;
+
+		@media (max-width: 825px) {
+			flex-direction: column;
+		}
 	}
 
 	& > div > div:nth-child(1) {
 		background-color: #EEEEEE;
 		border-radius: 20px;
-		width: 400px;
+		min-width: 180px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		font-size: 68px;
+
+		@media (max-width: 825px) {
+			min-width: 100%;
+			padding: 8px 0;
+		}
 	}
 
 	& > div > div:nth-child(2) {
@@ -34,10 +42,6 @@ export const Container = styled.div`
 			}
 		}
 
-		p {
-			width: 85%;
-		}
-
 		a {
 			color: ${({ theme }) => theme.colors['pale-blue']};
 			transition: all .5s;
@@ -53,13 +57,6 @@ export const Container = styled.div`
 		margin-top: 16px;
 		border-color: rgba(0, 0, 0, 0.1);
 	}
-`;
-
-export const Image = styled.img`
-	border-radius: 20px;
-	width: 210px;
-	height: 195px;
-	object-fit: cover;
 `;
 
 export const Badge = styled.span`

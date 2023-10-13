@@ -18,6 +18,10 @@ export const DefaultStyles = createGlobalStyle`
 		font-family: 'Heebo', sans-serif;
 		overflow-x: hidden;
 		padding: 0 48px;
+
+		@media (max-width: 429px) {
+			padding: 0 24px;
+		}
 	}
 
 	a {
