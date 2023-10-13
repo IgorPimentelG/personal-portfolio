@@ -10,6 +10,8 @@
 Este é o meu portfólio pessoal, onde compartilho projetos significativos que demonstrem minha experiência em criação de websites interativos e aplicativos backend.
 Meu objetivo é encontrar oportunidades para colaborar em projetos empolgantes e desafiadores, enquanto continuo aprendendo e crescendo como desenvolvedor.
 
+👉 [Acesse aqui](https://igorpimentelg.github.io/personal-portfolio/)
+
 
 ### Principais tecnologias:
 ![Java](https://img.shields.io/badge/-Java-22272E?style=for-the-badge&logo=openjdk&labelColor=0D1117&textColor=0D1117)&nbsp;
