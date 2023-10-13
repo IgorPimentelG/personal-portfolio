@@ -47,7 +47,7 @@ const Home: React.FC = () => {
 			icon: <MdPayments />,
 		},
 		{
-			title: 'QWERy',
+			title: 'TBB Store',
 			language: 'ReactJS',
 			year: '2023',
 			description: 'Website para demostrar a página inicial de um e-commerce. Neste contexto, a integração de tecnologias como ContextAPI, \
