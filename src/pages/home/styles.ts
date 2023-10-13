@@ -32,6 +32,19 @@ export const TechnologiesSession = styled.section`
 	}
 `;
 
+export const ProjectsSession = styled.section`
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 68px 38px;
+`;
+
+export const List = styled.div`
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+`;
+
 export const Title = styled.h1`
 	font-size: 42px;
 	line-height: 54px;

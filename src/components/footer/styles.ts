@@ -4,7 +4,7 @@ export const Container = styled.nav`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 58px 48px;
+	padding: 28px 48px 78px 48px;
 	width: 100%;
 	gap: 8px;
 
