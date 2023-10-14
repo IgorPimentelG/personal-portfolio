@@ -1,10 +1,40 @@
-import { Container, Option } from './styles';
+import { useState } from 'react';
+import { AiOutlineClose } from 'react-icons/ai';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { Button, Container, MenuExpansive, Option } from './styles';
 
 const Navbar: React.FC = () => {
+
+	const [isOpen, setIsOpen] = useState(false);
+
+	const Options = () => (
+		<>
+				<Option href="#projects">Projetos</Option>
+				<Option href="#contacts">Contato</Option>
+		</>
+	);
+
 	return (
 		<Container>
-			<Option href="#projects">Projetos</Option>
-			<Option href="#contacts">Contato</Option>
+			<div>
+				<Options />
+			</div>
+
+			<Button onClick={() => setIsOpen(state => !state)}>
+				{isOpen ? (
+					<AiOutlineClose size={28} />
+				) : (
+					<GiHamburgerMenu size={28} />
+				)}
+			</Button>
+
+
+			{isOpen && (
+				<MenuExpansive>
+					<h1>Menu</h1>
+					<Options />
+				</MenuExpansive>
+			)}
 		</Container>
 	);
 }
