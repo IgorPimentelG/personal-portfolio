@@ -21,6 +21,10 @@ export const PresentationSession = styled.section`
 			@media (max-width: 872px) {
 				width: 100%;
 			}
+
+			@media (max-width: 425px) {
+				font-size: 14px;
+			}
 		}
 
 		@media (max-width: 872px) {
@@ -30,7 +34,7 @@ export const PresentationSession = styled.section`
 	}
 
 	@media (max-width: 429px) {
-		padding: 48px 0;
+		padding: 28px 0;
 	}
 `;
 
@@ -82,6 +86,16 @@ export const Title = styled.h1`
 	@media (max-width: 1080px) {
 		font-size: 28px;
 		line-height: 38px;
+	}
+
+	@media (max-width: 425px) {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	@media (max-width: 320px) {
+		font-size: 24px;
+		line-height: 28px;
 	}
 `;
 

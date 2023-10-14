@@ -9,10 +9,14 @@ const Navbar: React.FC = () => {
 
 	const Options = () => (
 		<>
-				<Option href="#projects">Projetos</Option>
-				<Option href="#contacts">Contato</Option>
+				<Option href="#projects" onClick={closeMenu}>Projetos</Option>
+				<Option href="#contacts" onClick={closeMenu}>Contato</Option>
 		</>
 	);
+
+	function closeMenu() {
+		setIsOpen(false);
+	}
 
 	return (
 		<Container>
