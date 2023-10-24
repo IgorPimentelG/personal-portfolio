@@ -91,7 +91,7 @@ Error generating stack: `+o.message+`
 	transition: all .3s;
 	text-decoration: none;
 	width: fit-content;
-	background-color: ${({theme:e})=>e.colors["soft-yellow"]};
+	background-color: ${({theme:e})=>e.colors["pastel-green"]};
 
 	&:hover {
 		transform: scale(1.1);
