@@ -6,7 +6,7 @@ export const Container = styled.a`
 	transition: all .3s;
 	text-decoration: none;
 	width: fit-content;
-	background-color: ${({theme}) => theme.colors['soft-yellow']};
+	background-color: ${({theme}) => theme.colors['pastel-green']};
 
 	&:hover {
 		transform: scale(1.1);

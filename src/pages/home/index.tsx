@@ -36,7 +36,7 @@ const Home: React.FC = () => {
 			icon: <TbReportAnalytics />,
 		},
 		{
-			title: 'Pay hub',
+			title: 'Pay Hub - Em Desenvolvimento',
 			language: 'Java',
 			year: '2023',
 			description: 'Ferramenta dedicada ao gerenciamento eficiente de transações de pagamento de clientes para estabelecimentos. A aplicação \
