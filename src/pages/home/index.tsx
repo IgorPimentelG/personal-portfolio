@@ -3,6 +3,7 @@ import {
 	DockerLogo,
 	JavaLogo,
 	Profile,
+	ReactLogo,
 	SpringLogo,
 	TypescriptLogo
 } from '@assets';
@@ -36,14 +37,14 @@ const Home: React.FC = () => {
 			icon: <TbReportAnalytics />,
 		},
 		{
-			title: 'Pay Hub - Em Desenvolvimento',
+			title: 'Pay Hub',
 			language: 'Java',
 			year: '2023',
-			description: 'Ferramenta dedicada ao gerenciamento eficiente de transações de pagamento de clientes para estabelecimentos. A aplicação \
-				foi desenvolvida usando Java e o framework Spring, incorporando recursos essenciais como Spring Security, Rest Template, MySQL, Resilience4j, Docker, \
-			 	e uma variedade de outras tecnologias.',
+			description: 'Ferramenta dedicada ao gerenciamento de transações de pagamentos entre clientes e estabelecimentos comerciais. A aplicação \
+				foi desenvolvida usando Java e o framework Spring, incorporando recursos essenciais como Spring Security, Rest Template, PostgreSQL, Bucket4j, Docker, \
+				Schedule, SonarQube, Prometheus, Grafana e uma variedade de outras tecnologias.',
 			linkGithub: 'https://github.com/IgorPimentelG/pay-hub',
-			linkDeploy: '',
+			linkDeploy: 'https://pay-hub.onrender.com/swagger-ui/index.html#/',
 			icon: <MdPayments />,
 		},
 		{
@@ -100,6 +101,7 @@ const Home: React.FC = () => {
 					<div>
 						<Logo src={JavaLogo} alt='Java' title='Java' />
 						<Logo src={SpringLogo} alt='Spring' title='Spring'/>
+						<Logo src={ReactLogo} alt='React' title='React' />
 						<Logo src={TypescriptLogo} alt='Typescript' title='Typescript' />
 						<Logo src={DockerLogo} alt='Docker' title='Docker' />
 						<Logo src={AWSLogo} alt='AWS' title='AWS' />
